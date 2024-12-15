@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer Circle -->
+  <circle cx="100" cy="100" r="90" fill="none" stroke="currentColor" stroke-width="8"/>
+  
+  <!-- Inner Shield/Hexagon Shape -->
+  <path d="M100 40 
+           L140 65
+           L140 115
+           L100 140
+           L60 115
+           L60 65
+           Z" 
+        fill="none" 
+        stroke="currentColor" 
+        stroke-width="8"
+        stroke-linejoin="round"/>
+  
+  <!-- Vertical Line -->
+  <line x1="100" y1="40" x2="100" y2="140" 
+        stroke="currentColor" 
+        stroke-width="8"/>
+</svg>

@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Open Sans font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Eurostile';
+  src: url('https://db.onlinewebfonts.com/t/5b0ba2e20d3d7e3fc30b60595f3702c2.eot');
+  src: url('https://db.onlinewebfonts.com/t/5b0ba2e20d3d7e3fc30b60595f3702c2.eot?#iefix') format('embedded-opentype'),
+    url('https://db.onlinewebfonts.com/t/5b0ba2e20d3d7e3fc30b60595f3702c2.woff2') format('woff2'),
+    url('https://db.onlinewebfonts.com/t/5b0ba2e20d3d7e3fc30b60595f3702c2.woff') format('woff'),
+    url('https://db.onlinewebfonts.com/t/5b0ba2e20d3d7e3fc30b60595f3702c2.ttf') format('truetype'),
+    url('https://db.onlinewebfonts.com/t/5b0ba2e20d3d7e3fc30b60595f3702c2.svg#Eurostile') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Eurostile';
+  src: url('https://db.onlinewebfonts.com/t/11469c307f0de6481e3a04cc5d54ae93.eot');
+  src: url('https://db.onlinewebfonts.com/t/11469c307f0de6481e3a04cc5d54ae93.eot?#iefix') format('embedded-opentype'),
+    url('https://db.onlinewebfonts.com/t/11469c307f0de6481e3a04cc5d54ae93.woff2') format('woff2'),
+    url('https://db.onlinewebfonts.com/t/11469c307f0de6481e3a04cc5d54ae93.woff') format('woff'),
+    url('https://db.onlinewebfonts.com/t/11469c307f0de6481e3a04cc5d54ae93.ttf') format('truetype'),
+    url('https://db.onlinewebfonts.com/t/11469c307f0de6481e3a04cc5d54ae93.svg#Eurostile Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Apply Eurostile as default font */
+@layer base {
+  html {
+    font-family: 'Eurostile', system-ui, sans-serif;
+  }
+}
+
+/* Custom utilities for font weights */
+.font-light {
+  font-weight: 300;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-bold {
+  font-weight: 700;
+}
